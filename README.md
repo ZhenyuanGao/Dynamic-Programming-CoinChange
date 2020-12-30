@@ -18,29 +18,53 @@ for each item bought, the coins that were used, and the number of coins remainin
 Example:
 
 	input:
+	
 7 10 1 3  ⇐ pennies nickels dimes quarters
-		36
-		15
+		
+
+36		
+
+15
+
 40
+
+
 15
 		
+
 output:
-  7  10 1  3
+
+7  10 1  3
+
 - 6  6  0  0
+
 ------------
-  1  4  1  3
+
+1  4  1  3
+
 - 0  3  0  0
+
 ------------
-  1  1  1  3
+
+1  1  1  3
+
 - 0  1  1  1
+
 ------------
-  1  0  0  2
+
+1  0  0  2
+
 cannot pay 15 cents!
+
 ------------
-  1  0  0  2
+
+1  0  0  2
 
 
-HW 8.2 - Paying in Coins Part II (25 pts)
+
+
+
+2 Second Problem
 You have a pocket full of coins again, but this time you know ahead of time what you will purchase as well as how much each item will cost.  Your goal is again to use as many coins as possible, but this time while trying to buy as many items as you can.
 
 Construct an algorithm that, given the number of coins you have available and a list of item costs, uses as many coins as possible while trying to maximize the number of items that can be bought.
@@ -51,31 +75,58 @@ starting number of each coin
 value of items to be bought
 
 Output:
+
 for each item bought, the coins that were used, and the number of coins remaining in your pocket
+
 
 
 Example:
 
-	input:
-7 10 1 3  ⇐ pennies nickels dimes quarters
-		36
-		15
-40
-15
-		
-output:
-  7  10 1  3
-- 6  1  0  1
-------------
-  1  9  1  2
-- 0  3  0  0
-------------
-  1  6  1  2
-- 0  3  0  1
-------------
-  1  3  1  1
-- 0  3  0  0
-------------
-  		  1  0  1  1
 
-		(or solution that uses equivalent number of coins)
+	input:
+	
+
+7 10 1 3  ⇐ pennies nickels dimes quarters
+
+36
+
+15
+
+40
+
+15
+
+
+
+output:
+
+7  10 1  3
+
+- 6  1  0  1
+
+------------
+
+1  9  1  2
+
+- 0  3  0  0
+
+------------
+
+1  6  1  2
+
+- 0  3  0  1
+
+------------
+
+1  3  1  1
+
+- 0  3  0  0
+
+------------
+
+1  0  1  1
+
+
+
+(or solution that uses equivalent number of coins)
+
